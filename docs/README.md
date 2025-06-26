@@ -4,8 +4,11 @@
 
 This project is designed to extract property-related data from a CSV file, clean and normalize it, and then load it into a MySQL database with the required relational structure.
 
+This document consist of screenshots also : [Link](https://docs.google.com/document/d/1nCsYIPvH7R99JCyOLz8U8RKGF9BSOWehdV6VAC8H_Rg/edit?usp=sharing)
+
 ## **1. Database Setup**
 Before running the ETL script, you must set up a **MySQL database** and **create the necessary tables**.
+
 
 ### **1.1. Install MySQL**
 Ensure that **MySQL** is installed and running. You can download MySQL from [here](https://dev.mysql.com/downloads/).
