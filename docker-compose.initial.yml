@@ -1,4 +1,4 @@
-services: 
+services:
   mysql_ctn:
     build:
       context: .
@@ -11,6 +11,7 @@ services:
       MYSQL_PASSWORD: 6equj5_db_user
     volumes:
       - mysql_vol:/var/lib/mysql:rw
+      - ./sql:/docker-entrypoint-initdb.d:ro   # Mount the sql folder to run initialization scripts
     ports:
       - 3306:3306
     networks:
